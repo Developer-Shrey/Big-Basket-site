@@ -1,0 +1,207 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.card-body .btn {
+    font-size: 10px;
+    width: 60px;
+}
+
+.navi {
+    margin-left: 10%;
+}
+
+.inpt {
+    display: flex;
+}
+
+.inpt input {
+    width: 650px;
+    height: 30px;
+    border-radius: 0px;
+    border-color: black;
+    margin-top: 6%;
+    margin-left: 14%;
+    margin-bottom: 2%;
+}
+
+.inpt button {
+        height: 30px;
+        background-color: #84c225;
+        border-color: #84c225;
+        margin-top: 6%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 1%;
+}
+
+.shop {
+    background-color: #84c225;
+    color: white;
+}
+
+.offer {
+    margin-left: 10%;
+    margin-right: 10.2%;
+}
+
+.offer i {
+    color: #da251d;
+}
+
+.cart {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    width: 10%;
+    height: 20%;
+    margin-left: 15.8%;
+    margin-top: 3%;
+}
+
+.cart i {
+    font-size: 35px;
+    color: #da251d;
+}
+
+.mrgn {
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.categories {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: space-around;
+}
+
+hr {
+    width: 100%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+
+h3 {
+    margin-top: 3%;
+}
+
+h6 {
+    color: #84c225;
+}
+
+.card {
+    border-radius: 0%;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.carsl-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .carsl-1 .card {
+      width: 210px;
+      height: 20vw;
+      border-radius: 0%;
+      font-size: 11px;
+      padding: 6px;
+  }
+
+  .order-details {
+      padding: 4px;
+      padding-top: 15px;
+      background-color: #eeeeee;
+      line-height: 6px;
+  }
+  
+  .order-details del {
+      font-size: 10px;
+  }
+
+  .order-details img {
+      width: 20px;
+      height: 20px;
+      padding-bottom: 5px;
+  }
+
+  select {
+      width: 100%;
+      height: 30px;
+      font-size: 10px;
+  }
+  
+  select option {
+      font-size: 10px;
+  }
+
+  selected {
+      font-size: 10px;
+  }
+
+  .qty {
+    border-color: black;
+  }
+
+  .bank-offer .card {
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 0%;
+  }
+
+  .bank-offer img {
+    width: 100%;
+    height: 150%;
+    border-radius: 0%;
+  }
+
+  li:hover {
+    color: #84c225;
+    cursor: pointer;
+  }
+
+.wrapper {
+    display: inline-flex;
+  }
+
+//   .wrapper .icon {
+//     margin: 0 20px;
+//   }
+
+.wrapper .icon span {
+    width: 42px;
+    height: 42px;
+    display: block;
+    // background: #fff;
+    border-radius: 50%;
+    // color: white;
+    text-align: center;
+    line-height: 39px;
+    font-size: 35px;
+}
+
+.wrapper .icon:hover span {
+    background: #9b9ff9;
+}
+
+.wrapper .facebook {
+    color:  #3b5998;
+}
+.wrapper .facebook:hover {
+    color:  #ffffff;
+    background: #ffffff;
+}
+
+.wrapper .instagram {
+    color: #517fa4;
+}
+.wrapper .twitter {
+    color: #00aced;
+}
+.wrapper .pinterest {
+    color: #db3236;
+}
